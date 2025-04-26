@@ -68,10 +68,10 @@ with the payload:
 
 ```json
 {
-  "name": "idVerification",
+  "name": "policyCount",
   "input": {
-    "type": "id",
-    "documentNumber": "1234567890"
+    "type": "count",
+    "minPolicies": "2"
   }
 }
 ```
