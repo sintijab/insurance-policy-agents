@@ -36,15 +36,9 @@ Your code will be running and syncing with Restack to execute agents.
 
 ## Run agents
 
-### From frontend
+### From frontend or UI Dashboard
 
 ![Run agents from frontend](./agent-reactflow.png)
-
-### from UI
-
-You can run agents from the UI by clicking the "Run" button.
-
-![Run agents from UI](./agent-post.png)
 
 ### from API
 
