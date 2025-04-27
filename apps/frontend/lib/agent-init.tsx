@@ -5,7 +5,7 @@ export const nodesMultiPolicies = workflowDataMultiPolicies
 
 export const edgesMultiPolicies: Edge[] = [
   {
-    id: `edge-start-idVerification`,
+    id: `edge-start-policyCount`,
     source: "start",
     target: "policyCount",
   },
