@@ -135,7 +135,7 @@ function ChatMessages({ agentId, runId, currentFlow, workflowData, setNodes, set
             append({ content: "create an agent to verify account holders with multiple policies. first step policy count, if success end the flow, active policy verification", role: 'user' })
             setInput("")
           }} className="text-xs w-full bg-muted text-muted-ackground">
-            <Sparkles className="h-2 w-2" /> Verify young users
+            <Sparkles className="h-2 w-2" /> Verify accounts with multiple policies
           </Button>
         </div>
         <div className="flex items-end gap-2">
@@ -192,7 +192,7 @@ export default function AgentChat({ onClose, reactFlowInstance, setNodes, setEdg
       {runId && <div className="m-4 p-4 text-xs bg-muted-foreground/10 rounded-md overflow-hidden space-y-2">
         <div className="flex items-center justify-between gap-2">
           <p className="text-xs uppercase text-muted-foreground">Dev debug info</p>
-          <Link href={`http://localhost:5233/runs/${agentId}/${runId}?scheduledEventId=1`} target="_blank" className="text-xs underline text-muted-foreground hover:text-foreground">Open on Restack</Link>
+          <Link href={`http://localhost:5232/runs/${agentId}/${runId}?scheduledEventId=1`} target="_blank" className="text-xs underline text-muted-foreground hover:text-foreground">Open on Restack</Link>
         </div>
         <pre>{JSON.stringify({agentId, runId}, null, 2)}</pre>
         
