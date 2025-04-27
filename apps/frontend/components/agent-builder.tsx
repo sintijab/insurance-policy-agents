@@ -25,7 +25,7 @@ import { nodesMultiPolicies as initialNodes, edgesMultiPolicies as initialEdges 
 import AgentTestPanel from "./agent-test"
 import { createNode, getLayoutedElements } from "./flow/autoLayout"
 import WorkflowEditPanel from "./workflow-edit"
-import { validateNodeIds, getWorkflowTypes } from "@restackio/react/hook"
+import { validateNodeIds, getWorkflowTypes } from "@restackio/react/flow"
 
 export default function WorkflowBuilder() {
   const reactFlowWrapper = useRef<HTMLDivElement>(null)

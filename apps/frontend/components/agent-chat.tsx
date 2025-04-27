@@ -135,7 +135,7 @@ function ChatMessages({ agentId, runId, currentFlow, workflowData, setNodes, set
             append({ content: "create an agent to verify account holders with multiple policies. first step policy count, if success end the flow, active policy verification", role: 'user' })
             setInput("")
           }} className="text-xs w-full bg-muted text-muted-ackground">
-            <Sparkles className="h-2 w-2" /> Verify young users
+            <Sparkles className="h-2 w-2" /> Verify multiple policy account holders
           </Button>
         </div>
         <div className="flex items-end gap-2">
